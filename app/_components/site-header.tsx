@@ -13,7 +13,7 @@ export function SiteHeader() {
           <span>{profile.shortName}</span>
         </a>
 
-        <nav aria-label="Primary" className="hidden md:block">
+        <nav aria-label="Primary" className="hidden lg:block">
           <ul className="flex items-center gap-1 text-sm">
             {navItems.map((item) => (
               <li key={item.href}>
@@ -32,7 +32,7 @@ export function SiteHeader() {
           <a
             href={profile.cvHref}
             download
-            className="hidden h-9 items-center gap-2 rounded-full bg-foreground px-4 text-sm font-medium text-background transition hover:opacity-90 md:inline-flex"
+            className="hidden h-9 items-center gap-2 rounded-full bg-foreground px-4 text-sm font-medium text-background transition hover:opacity-90 lg:inline-flex"
           >
             <DownloadIcon className="size-4" />
             CV

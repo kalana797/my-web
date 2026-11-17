@@ -3,7 +3,12 @@ import { Section } from "./ui";
 
 export function Education() {
   return (
-    <Section id="education" eyebrow="05 — Education" title="Always learning.">
+    <Section
+      id="education"
+      eyebrow="06 — Education"
+      title="Always learning."
+      className="border-y border-border bg-surface/60"
+    >
       <ol className="grid gap-5 lg:grid-cols-3">
         {education.map((entry, i) => (
           <li

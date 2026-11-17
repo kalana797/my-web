@@ -103,3 +103,22 @@ body {
     scroll-behavior: auto;
   }
 }
+
+/* Printable CV (/cv) — A4 pages, keep brand colours when printing */
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm 14mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+  }
+
+  .cv-sheet,
+  .cv-sheet * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

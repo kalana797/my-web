@@ -7,7 +7,7 @@ export function Skills() {
       id="skills"
       eyebrow="02 — Skills"
       title="A full-stack toolkit, end to end."
-      intro="From database schema and REST APIs to web and mobile interfaces — plus the enterprise and third-party integrations in between."
+      intro="Technologies I’ve used in production — from database schema and REST APIs to web and mobile interfaces, plus the payment, real-time and ERP integrations in between."
       className="border-y border-border bg-surface/60"
     >
       <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">

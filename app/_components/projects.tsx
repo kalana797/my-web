@@ -6,16 +6,15 @@ export function Projects() {
   return (
     <Section
       id="projects"
-      eyebrow="04 — Projects"
-      title="Things I’ve built."
-      intro="A mix of personal and academic projects, followed by the client systems I’ve worked on professionally."
-      className="border-y border-border bg-surface/60"
+      eyebrow="05 — Projects"
+      title="Personal & academic projects."
+      intro="Things I’ve built outside client work — followed by the rest of the client systems I’ve contributed to."
     >
       <ul className="grid gap-5 md:grid-cols-2">
         {projects.map((project, i) => (
           <li
             key={project.title}
-            className={`reveal group flex flex-col rounded-2xl border border-border bg-surface p-6 transition hover:border-accent/50 sm:p-8 ${i < 2 ? "md:min-h-[22rem]" : ""}`}
+            className={`reveal group flex flex-col rounded-2xl border border-border bg-surface p-6 transition hover:border-accent/50 sm:p-8 ${i < 2 ? "md:min-h-88" : ""}`}
           >
             <div className="flex flex-wrap items-center gap-2">
               <span className="font-mono text-xs uppercase tracking-[0.16em] text-accent">
@@ -51,9 +50,9 @@ export function Projects() {
 
       <div className="mt-20">
         <div className="reveal max-w-2xl">
-          <h3 className="text-2xl font-semibold tracking-tight">Professional work</h3>
+          <h3 className="text-2xl font-semibold tracking-tight">More client work</h3>
           <p className="mt-3 leading-relaxed text-muted">
-            Client systems I’ve built and maintained — web platforms, admin portals, and the
+            Other systems I’ve built and maintained — web platforms, admin portals, and the
             mobile apps used by delivery, sales and field teams.
           </p>
         </div>

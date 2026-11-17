@@ -7,6 +7,7 @@ import { Projects } from "./_components/projects";
 import { SiteFooter } from "./_components/site-footer";
 import { SiteHeader } from "./_components/site-header";
 import { Skills } from "./_components/skills";
+import { Work } from "./_components/work";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <About />
         <Skills />
         <Experience />
+        <Work />
         <Projects />
         <Education />
         <Contact />
